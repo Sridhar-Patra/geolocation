@@ -1,0 +1,80 @@
+* {
+    font-family: "Lato", sans-serif;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  button {
+    background-color: #000;
+    border-radius: 5px;
+    height: 10vh;
+    width: 20vw;
+    color: white;
+  
+    font-size: 2rem;
+  }
+  h1 {
+    text-align: center;
+  }
+  .showDetails {
+    display: none;
+    font-size: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 2px solid black;
+  }
+  .showDetails ul{
+    padding: 10px;
+  }
+  .showDetails li {
+    list-style: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 15px 0px;
+  }
+  #map {
+    height: 70vh;
+  }
+  .timezone {
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0px 15px;
+  }
+  #filterpin {
+    
+    box-sizing: border-box;
+    padding: 0px 20px;
+  }
+  #filterpin input {
+    box-sizing: border-box;
+    font-size: 17px;
+    padding: 9px 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 100%;
+  }
+  #pOList {
+    margin: 20px;
+    display: flex;
+    row-gap: 15px;
+    column-gap: 15px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  #pOList ul {
+    width: 500px;
+    margin: 15px 0;
+    list-style: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 25px;
+  }
+  #pOList li {
+    margin: 15px 0;
+    font-size: 20px;
+  }
